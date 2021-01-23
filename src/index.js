@@ -23,5 +23,5 @@ app.get("/:comicId", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`App listening at elaasemy-comics.herokuapp.com/${port}`);
+  console.log(`App listening at ${port}`);
 });
